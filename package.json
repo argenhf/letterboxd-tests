@@ -1,0 +1,19 @@
+{
+    "name": "letterboxd-tests",
+    "version": "1.0.0",
+    "description": "android ui tests of the letterboxd app",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "argen",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^10.2.0",
+        "webdriverio": "^8.16.10"
+    },
+    "dependencies": {
+        "expect-webdriverio": "^4.2.8"
+    },
+    "type": "module"
+}
